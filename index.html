@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Navbar section -->
+<nav class="">
+  <div class="container">
+    <div style="display: flex; flex-direction: row; justify-content: space-around;">
+    
+    <!-- Navbar left -->
+      <div class="navbar-start" style="display: flex;">
+        <a class="navbar-item">
+          About
+        </a>
+        <a class="navbar-item">
+          Store
+        </a>
+      </div>
+
+      <!-- Navbar right -->
+      <div class="navbar-end" style="display: flex;">
+        <a class="navbar-item">
+            Gmail
+        </a>
+        <a class="navbar-item">
+            Images
+        </a>
+        <span class="navbar-item">
+            <i class="fas fa-th"></i>
+        </span>
+        <span class="navbar-item">
+            <i class="fas fa-user-circle has-text-link-dark"></i>
+        </span>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="hero is-fullheight-with-navbar">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+        <h1 class="title" id="h1">
+            <!-- Google Text here -->
+        </h1>
+        <h2 class="subtitle mt-6 has-text-centered">
+            <div class="control has-icons-left has-icons-right search_container">
+                <input id="search_bar" class="input is-medium" type="text" placeholder="">
+                <span class="icon is-left">
+                  <i class="fas fa-search"></i>
+                </span>
+                <span class="icon is-right">
+                  <i class="fas fa-microphone"></i>
+                </span>
+            </div>
+        </h2>
+
+        <h2>
+            <div class="field is-grouped is-grouped-centered">
+                <p class="control">
+                  <button class="button is-light">
+                    Google Search
+                  </button>
+                </p>
+                <p class="control">
+                  <button class="button is-light">
+                    I'm Feeling Lucky
+                  </button>
+                </p>
+              </div>
+        </h2>
+    </div>
+  </div>
+
+  <!-- Hero footer: will stick at the bottom -->
+  <div class="hero-foot mt-6 columns has-background-light">
+    <div class="column has-text-centered ml-2">
+        <ul>
+            <a href="" class="has-text-dark">Advertising</a>
+            <a href="" class="has-text-dark">Business</a>
+            <a href="" class="has-text-dark">How Search works</a>
+        </ul>
+    </div>
+    <div class="column has-text-centered">
+        <ul>
+            <span>
+                <i class="fab fa-envira has-text-success"></i> 
+            </span>
+            <a href="" class="has-text-dark">Carbon neutral since 2007</a>
+        </ul>
+    </div>
+    <div class="column has-text-centered mr-2">
+        <ul>
+            <a href="" class="has-text-dark">Privacy</a>
+            <a href="" class="has-text-dark">Terms</a>
+            <a href="" class="has-text-dark">Settings</a>
+        </ul>
+    </div>
+</div>
+</section>
+
+<script src="app.js"></script>
+</body>
+</html>
